@@ -2,19 +2,25 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package proyecto2so_betancourt_stallone;
+package Clases;
+
+import Interfaces.Simulador;
 
 /**
  *
  * @author marco
  */
-public class Proyecto2SO_Betancourt_Stallone {
+public class Main {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.setProperty("sun.awt.shell.useDefaultFolder", "true");
+        Simulador simulador = new Simulador();
+
+        simulador.setVisible(true);
+
     }
-    
+
 }
