@@ -281,7 +281,7 @@ public class Simulador extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        simulador.setBackground(new java.awt.Color(153, 204, 255));
+        simulador.setBackground(new java.awt.Color(255, 153, 0));
         simulador.setForeground(new java.awt.Color(153, 255, 102));
 
         Modo.add(modoAdmi);
